@@ -1,1 +1,21 @@
-theme: jekyll-theme-minimal
+title:              Hyeoni's Blog
+email:              gusk743@gmail.com
+description:        A Blog Theme by Start Bootstrap
+author:             hyeoni90
+baseurl:            ""
+url:                "https://hyeoni90.github.io"
+
+# Social Profiles
+github_username:    hyeoni90
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+
+# Theme
+theme: jekyll-theme-clean-blog
