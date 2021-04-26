@@ -18,7 +18,7 @@ $ brew update
 ```bash
 $ brew install rabbitmq
 ```
-[homebrew 설치하기][https://brew.sh/index_ko]
+[homebrew 설치하기](https://brew.sh/index_ko)
 
 
 ### 2. 설치 확인하고 실행해보기 
@@ -124,5 +124,5 @@ http://localhost:15672/#/ guest / guest 로 로그인 후, Admin 탭 이동
 - Password : 비밀번호
 - Tags : 계정 권한 부여 (Admin, Monitoring, Policymaker, Management, None 이렇게 5가지 종류)
 
-###References
-- https://www.rabbitmq.com/install-homebrew.html
+### References
+- [The Homebrew RabbitMQ Formula](https://www.rabbitmq.com/install-homebrew.html)
