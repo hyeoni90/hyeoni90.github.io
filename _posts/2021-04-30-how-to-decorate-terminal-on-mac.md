@@ -1,7 +1,6 @@
-
 ---
 layout: post
-title:  "Mac Terminal 꾸미기"
+title:  "[개발 환경 세팅] Mac Terminal 꾸미기"
 date:   2021-04-30 
 categories: etc
 ---
