@@ -16,4 +16,4 @@ oh-my-zsh로 zsh에 플러그인을 설치해 테마를 적용할 수 있습니�
 $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-![ex_screenshot](./images/posts/1111.png)
+![ex_screenshot](/assets/1111.png)
