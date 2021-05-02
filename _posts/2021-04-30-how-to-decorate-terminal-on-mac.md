@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "[개발 환경 세팅] Mac Terminal 꾸미기"
@@ -8,10 +7,7 @@ categories: etc
 
 > Mac OS Catalina 이후부터는 zsh 쉘이 기본입니다.
 
-
-우선, Mac의 패키지 매니저 인 Homebrew를 설치 합니다. 
-
-[Homebrew install](https://brew.sh/)
+우선, Mac의 패키지 매니저 인 [Homebrew 설치](https://brew.sh/) 합니다. 
 
 ## oh-my-zsh 설치 하기
 oh-my-zsh로 zsh에 플러그인을 설치해 테마를 적용할 수 있습니다.
@@ -51,7 +47,7 @@ $ source ~/.zshrc
 
 [Meslo LG M Regular for Powerline.ttf](https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf) 서체 다운로드 및 설치
 
-[여기](https://github.com/powerline/fonts) 를 참고 하여 원하는 폰트를 설치 해서 사용하면 됩니다.
+* [여기](https://github.com/powerline/fonts) 를 참고 하여 원하는 폰트를 설치 해서 사용하면 됩니다.
 
 
 <img width="940" alt="change font on iterm2 2021-04-30 " src="https://user-images.githubusercontent.com/47413225/116684745-4a5e4480-a9ec-11eb-81b2-c86c70bbc40a.png">
@@ -62,7 +58,7 @@ iTerm2 > Preperences > Profiles 에서 Text 탭에서 Font 변경 하면 아래�
 
 
 ## 사용자 이름 숨기기
-`vi ~/.zshrc` 하단에 아래 코드 추가 후 반영한다.
+`vi ~/.zshrc` 하단에 아래 코드 추가 후 `source ~/.zshrc` 명령어를 실행하여 반영한다.
 ```
 DEFAULT_USER="$(whoami)"
 ```
@@ -95,9 +91,3 @@ plugins= (
   zsh-autosuggestions
 )
 ```
-
-## 정리
-다른 회사에 가게 되거나, 맥북 포맷 후 다시 세팅해야 할 경우 등 은근히 개발 환경 세팅하는 경우가 생각보다 많습니다. 
-사람 마다 원하는 것이 다르기 때문에, 본인한테 가장 편하고 원하는대로 세팅하면 됩니다.
-위 플러그인 말고도 좋은 것들이 많기 때문에 찾아보시길 바랍니다. 😁
-
