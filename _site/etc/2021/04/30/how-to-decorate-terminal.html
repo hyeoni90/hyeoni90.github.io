@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    [개발 환경 세팅] Mac Terminal 꾸미기 - Hyeoni&#39;s Blog
+    
+  </title>
+
+  <meta name="description" content="Mac OS Catalina 이후부터는 zsh 쉘이 기본입니다.">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="https://hyeoni90.github.io/etc/2021/04/30/how-to-decorate-terminal.html">
+  <link rel="alternate" type="application/rss+xml" title="Hyeoni&#39;s Blog" href="/feed.xml">
+
+</head>
+
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">Hyeoni&#39;s Blog</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/posts">Posts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Page Header -->
+
+    <header class="masthead">
+        
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="post-heading">
+                        <h1>[개발 환경 세팅] Mac Terminal 꾸미기</h1>
+                        
+                        <span class="meta">Posted by
+              <a href="#">hyeoni90</a>
+              on April 30, 2021 &middot; <span class="reading-time" title="Estimated read time">
+  
+   2 mins  read </span>
+
+            </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+
+                <blockquote>
+  <p>Mac OS Catalina 이후부터는 zsh 쉘이 기본입니다.</p>
+</blockquote>
+
+<p>우선, Mac의 패키지 매니저 인 <a href="https://brew.sh/">Homebrew 설치</a> 합니다.</p>
+
+<h2 id="oh-my-zsh-설치-하기">oh-my-zsh 설치 하기</h2>
+<p>oh-my-zsh로 zsh에 플러그인을 설치해 테마를 적용할 수 있습니다.</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>sh <span class="nt">-c</span> <span class="s2">"</span><span class="si">$(</span>curl <span class="nt">-fsSL</span> https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh<span class="si">)</span><span class="s2">"</span>
+</code></pre></div></div>
+<p><img width="100%" alt="oh my zsh install 2021-04-30 " src="https://user-images.githubusercontent.com/47413225/116677967-c30cd300-a9e3-11eb-920e-67dbddac8d8a.png" /></p>
+
+<h2 id="zsh-설정-하기">zsh 설정 하기</h2>
+<p>zsh 설정 파일에 들어가서 설정을 변경해보겠습니다.</p>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>vi ~/.zshrc
+</code></pre></div></div>
+<h3 id="테마-변경">테마 변경</h3>
+
+<p>설정 파일에 들어가면, <code class="language-plaintext highlighter-rouge">ZSH_THEME="robbyrussell"</code> 라인을 확인할 수 있습니다.</p>
+
+<p>저는, agnoster 테마로 변경 하겠습니다.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ZSH_THEME="agnoster"
+</code></pre></div></div>
+
+<p>다른 테마를 <a href="https://github.com/ohmyzsh/ohmyzsh/wiki/Themes">ohmyzsh Github</a> 을 참고하세요.</p>
+
+<h3 id="zsh-설정-반영">zsh 설정 반영</h3>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">source</span> ~/.zshrc
+</code></pre></div></div>
+
+<p>그렇다면, 아래와 같이 폰트가 깨진다.</p>
+
+<p><img width="100%" alt="break font on terminal 2021-04-30 " src="https://user-images.githubusercontent.com/47413225/116682919-db7fec00-a9e9-11eb-84a2-bf6cb6171a95.png" /></p>
+
+<h2 id="폰트-변경">폰트 변경</h2>
+
+<p><a href="https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf">Meslo LG M Regular for Powerline.ttf</a> 서체 다운로드 및 설치</p>
+
+<ul>
+  <li><a href="https://github.com/powerline/fonts">여기</a> 를 참고 하여 원하는 폰트를 설치 해서 사용하면 됩니다.</li>
+</ul>
+
+<p><img width="100%" alt="change font on iterm2 2021-04-30 " src="https://user-images.githubusercontent.com/47413225/116684745-4a5e4480-a9ec-11eb-81b2-c86c70bbc40a.png" /></p>
+
+<p>iTerm2 &gt; Preperences &gt; Profiles 에서 Text 탭에서 Font 변경 하면 아래와 같이 됩니다.</p>
+
+<p><img width="100%" alt="fix font on terminal 2021-04-30 " src="https://user-images.githubusercontent.com/47413225/116684856-77125c00-a9ec-11eb-9d4d-b74fc3c5e755.png" /></p>
+
+<h2 id="사용자-이름-숨기기">사용자 이름 숨기기</h2>
+<p><code class="language-plaintext highlighter-rouge">vi ~/.zshrc</code> 하단에 아래 코드 추가 후 <code class="language-plaintext highlighter-rouge">source ~/.zshrc</code> 명령어를 실행하여 반영한다.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>DEFAULT_USER="$(whoami)"
+</code></pre></div></div>
+
+<h2 id="유용한-플러그인-추가">유용한 플러그인 추가</h2>
+
+<p>oh-my-zsh 플러그인 추가 하기 위해서 해당 디렉토리로 이동.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ cd ~/.oh-my-zsh/custom/plugins/
+</code></pre></div></div>
+
+<h3 id="zsh-syntax-highlighting-설치">zsh-syntax-highlighting 설치</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+
+</code></pre></div></div>
+<h3 id="zsh-autosuggestions-설치">zsh-autosuggestions 설치</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git clone https://github.com/zsh-users/zsh-autosuggestions
+</code></pre></div></div>
+
+<h3 id="설정-파일에-플러그인-추가">설정 파일에 플러그인 추가</h3>
+<p><code class="language-plaintext highlighter-rouge">vi ~/.zshrc</code> 로 설정 파일을 열어 하단 plugins에 설치한 플러그인을 추가</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>plugins= (
+  git
+  zsh-syntax-highlighting
+  zsh-autosuggestions
+)
+</code></pre></div></div>
+
+
+                <hr>
+
+                <div class="clearfix">
+
+                    
+                    <a class="btn btn-primary float-left" href="/java/2020/11/12/jvm.html" data-toggle="tooltip" data-placement="top" title="JVM 정리">&larr; Previous<span class="d-none d-md-inline">
+              Post</span></a>
+                    
+                    
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          <li class="list-inline-item">
+            <a href="mailto:gusk743@gmail.com">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://github.com/hyeoni90">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy; hyeoni90 2021</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/startbootstrap-clean-blog/js/scripts.js"></script>
+
+<script src="/assets/scripts.js"></script>
+
+
+
+
+</body>
+
+</html>
