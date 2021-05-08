@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03caf91d-d35c-4d5d-9f4b-85ea4cc2f97a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/vendor/startbootstrap-clean-blog/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/vendor/startbootstrap-clean-blog/scss/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/_site/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/_site/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/_site/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/startbootstrap-clean-blog/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/startbootstrap-clean-blog/scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +125,7 @@
       <workItem from="1619938852012" duration="1195000" />
       <workItem from="1620013673201" duration="5142000" />
       <workItem from="1620084993762" duration="1000" />
-      <workItem from="1620473822405" duration="2869000" />
+      <workItem from="1620473822405" duration="4015000" />
     </task>
     <servers />
   </component>
