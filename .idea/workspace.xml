@@ -2,18 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03caf91d-d35c-4d5d-9f4b-85ea4cc2f97a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_sass/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/vendor/startbootstrap-clean-blog/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/vendor/startbootstrap-clean-blog/scss/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/_site/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/_site/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/_site/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/startbootstrap-clean-blog/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/startbootstrap-clean-blog/scss/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/main.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/vendor/startbootstrap-clean-blog/js/jqBootstrapValidation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/vendor/startbootstrap-clean-blog/js/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/vendor/startbootstrap-clean-blog/scss/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/etc/2021/04/30/how-to-decorate-terminal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/java/2020/11/12/jvm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/jekyll-theme-clean-blog.gemspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/jekyll/update/2019/10/23/welcome-to-jekyll.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/posts/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/rabbitmq/2019/11/05/how-to-install-rabbitmq-on-mac.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -71,13 +87,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,7 +143,8 @@
       <workItem from="1619938852012" duration="1195000" />
       <workItem from="1620013673201" duration="5142000" />
       <workItem from="1620084993762" duration="1000" />
-      <workItem from="1620473822405" duration="4015000" />
+      <workItem from="1620473822405" duration="4104000" />
+      <workItem from="1620521832163" duration="851000" />
     </task>
     <servers />
   </component>
