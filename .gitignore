@@ -1,0 +1,16 @@
+.idea/sonarlint
+_site
+_posts/_draft
+_posts/_archive
+_archive
+node_modules
+.sass-cache
+.vscode
+*.gem
+*.log
+*.lock
+*.sh
+.DS_Store
+.jekyll-cache
+*/.DS_Store
+*/*/.DS_Store

@@ -1,8 +1,6 @@
-remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
-
 title:              Hyeoni's Blog
 email:              gusk743@gmail.com
-description:        A Blog Theme by Start Bootstrap
+description:        Step By Step 🏃‍
 author:             hyeoni90
 baseurl:            ""
 url:                "https://hyeoni90.github.io"
@@ -14,7 +12,9 @@ github_username:    hyeoni90
 markdown:           kramdown
 paginate:           5
 paginate_path:      "/posts/page:num/"
+
 plugins:
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+  - jekyll-sitemap
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
