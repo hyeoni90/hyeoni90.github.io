@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03caf91d-d35c-4d5d-9f4b-85ea4cc2f97a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-11-05-how-to-install-rabbitmq-on-mac.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-11-05-how-to-install-rabbitmq-on-mac.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-06-10-how-to-install-kafka-on-mac.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-06-10-how-to-install-kafka-on-mac.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +22,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1SbPrdTYMpEWhp7LnuSYrhGrmJj" />
   <component name="ProjectViewState">
@@ -60,21 +65,6 @@
       <recent name="$PROJECT_DIR$/assets/vendor/startbootstrap-clean-blog" />
       <recent name="$PROJECT_DIR$/image/rabbitmq" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -120,6 +110,13 @@
       <workItem from="1620084993762" duration="1000" />
       <workItem from="1620473822405" duration="4104000" />
       <workItem from="1620521832163" duration="3225000" />
+      <workItem from="1620603809148" duration="1452000" />
+      <workItem from="1620607635054" duration="312000" />
+      <workItem from="1623331904365" duration="2860000" />
+      <workItem from="1630572463017" duration="876000" />
+      <workItem from="1630574980794" duration="982000" />
+      <workItem from="1656819989722" duration="502000" />
+      <workItem from="1656822636300" duration="258000" />
     </task>
     <servers />
   </component>
@@ -146,6 +143,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
